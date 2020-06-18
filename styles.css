@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right bottom, rgba(1,2,2,.3), rgba(2,3,6,.7));
+    background-size: 100vh cover;
+}
+
+.main {
+    background: #ccc;
+    width: 400px;
+    height: 175px;
+    margin: 150px auto;
+
+    position: relative;
+    padding: 30px;
+    background-image: linear-gradient(to right bottom, rgba(1,2,2,.3), rgba(2,3,6,.7));
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.badge {
+    position: absolute;
+    top: -15px;
+    left: 40%;
+
+    width: 96px;
+    background: #e66357;
+    color: #eee;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.clock {
+    background: #EBEBEB;
+    text-align: center;
+    font-size: 45px;
+    height: 100%;
+    padding-top: 30px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 4px;
+}
+
